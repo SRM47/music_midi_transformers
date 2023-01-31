@@ -6,8 +6,9 @@ Many types of data are “recurrent” in nature, meaning that the data is seque
 The primary premise of this project is to train a large Decoder-only based Transformer, much like GPT, but on music notes from MIDI files to attempt to generate coherent, interesting, developed piano compositions much like current state-of-the-art language models, like ChatGPT, produce seemingly realistic, high quality stories.
 
 ## Project Goals
-1. Learn to build, from the bottom up, various seq2seq Neural Network architecture types such as RNN’s, LSTM’s, or Transformers. 
+1. Learn to build, from the bottom up, various Neural Network architecture types such as RNN’s, LSTM’s, or Transformers using native PyTorch
 2. Train these models to generate coherent Piano compositions
-3. Compare and contrast the various seq2seq models for music generation.
+3. Compare and contrast the various models for music generation.
+4. Deploy the service on a scalable webapp using a cloud-hosting platform
 
 
